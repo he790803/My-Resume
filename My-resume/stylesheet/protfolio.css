@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.jumbotron .protfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    font-size: 100px;
+    color: white;
+}
+
+.mainPro {
+    background-color: #f7f8fa;
+    padding-bottom: 5%;
+}
+
+.mainPro img {
+    width: 100%;
+    height: 90%;
+}
+
+.mainPro h1 {
+    font-size: 20px;
+}
+
+.mainPro p {
+    font-size: 36px;
+}
+
+.skillsTitle h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.mainPro .row {
+    height: 50vh;
+    width: auto;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.mainPro .row:hover {
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.myPortfolio {
+    margin-bottom: 5%;
+}
+
+.icon {
+    margin-bottom: 2%;
+}
+
+
+/* button {
+    position: absolute;
+    top: 85%;
+    width: 90%;
+} */
+
+@media only screen and (max-width: 800px) {
+    .mainPro h1,
+    a {
+        font-size: 10px;
+    }
+    .mainPro p {
+        font-size: 20px;
+    }
+    .jumbotron .protfolio {
+        font-size: 50px;
+    }
+}
