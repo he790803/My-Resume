@@ -17,8 +17,20 @@ body {
     transition: 0.5s;
 }
 
+#myPhoto {
+    width: 300px;
+}
+
 .navbar-nav a {
     position: relative;
+}
+
+.blog-header a {
+    font-size: 200%;
+}
+
+.blog-header a:hover {
+    text-decoration: none;
 }
 
 .navbar-nav a:before,
@@ -79,7 +91,7 @@ body {
 }
 
 .bb a {
-    font-size: 35px;
+    font-size: 5px;
     color: #262626;
 }
 
@@ -123,8 +135,8 @@ nav ul li a {
 nav li a:active,
 nav li a:hover {
     /* color: #fff;
-    background: #f00;
-    background: #3498DB; */
+    background: #f00; */
+    /* background: #3498DB; */
     text-decoration: none;
 }
 
@@ -142,8 +154,8 @@ nav li a:hover {
 
 .jumbotron {
     background: linear-gradient(to left, #b2fefa, #0ed2f7);
-    width: 100vw;
-    height: 60vh;
+    /* width: 100vw;
+    height: 60vh; */
 }
 
 .jumbotron .btn {
@@ -203,11 +215,7 @@ nav li a:hover {
     margin-left: 3%;
 }
 
-.footer a {
-    text-decoration: none;
-}
-
-.footer p {
+#here {
     text-align: center;
 }
 
@@ -215,7 +223,16 @@ nav li a:hover {
     margin-left: 15px;
 }
 
-@media only screen and (max-width: 500px) {
+.footer {
+    padding: 10px 0px 10px 0px;
+}
+
+.footer p {
+    text-decoration: none;
+    text-align: center;
+}
+
+@media only screen and (max-width:768px) {
     #myPhoto {
         width: 300px;
     }
@@ -223,10 +240,10 @@ nav li a:hover {
         width: 100px;
         height: 100px;
     }
-    .footer {
+    /* .footer {
         position: relative;
         left: 40%;
-    }
+    } */
     .bb a:hover,
     nav li a:active,
     nav li a:hover {
@@ -238,5 +255,8 @@ nav li a:hover {
     .navbar-nav a:hover:after {
         transform: translate(0%, 0%);
         opacity: 0;
+    }
+    .row p {
+        font-size: 20px;
     }
 }
